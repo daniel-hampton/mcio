@@ -45,13 +45,13 @@ easier Anaconda distribution. See the
 ### Installing from Anaconda
 
 You can use [this link](https://www.anaconda.com/distribution/#download-section)
-to go directly to the download section for Anaconda. 
+to go directly to the download section for Anaconda.
 
 ![Anaconda Download](./anaconda-download.jpg)
 
 This time installers are provided for Windows, macOS, and Linux. Again, you'll
 want to get the 3.X version. You may notice the python version here doesn't
-match the latest version from python.org. That's okay! Anaconda is bundled to 
+match the latest version from python.org. That's okay! Anaconda is bundled to
 make sure all the dependencies work together well. You can still use the latest
 version python with Anaconda by creating a clean **virtual environment**, which
 we will discuss briefly later.
