@@ -6,8 +6,8 @@
   "author": "Daniel Hampton",
   "private": true,
   "scripts": {
-    "docs:dev": "vuepress dev",
-    "docs:build": "vuepress build"
+    "serve": "vuepress dev",
+    "build": "vuepress build"
   },
   "devDependencies": {
     "vuepress": "^1.3.0"
