@@ -11,12 +11,13 @@ meta:
 <ArticleTitle />
 <TagLinks />
 
-Let's learn how to download, install, and create your development environment in
-order to get started programming with python! Perhaps you've heard that coding
-is a superpower. Or you've read about this fancy *machine learning* stuff going
-around. Either way, you're probably asking yourself, "Where do I start?".
-Right here in this tutorial, with no previous programming knowledge required!
-Let's get started!
+Welcome friends! Maybe you've come here after reading about this fancy *machine
+learning* stuff. Or you've heard that coding is a superpower that will help you
+launch a new career. Either way, you're probably asking yourself, "Where do I
+start?". Right here in this tutorial, with no previous programming knowledge
+required! We are going to learn how to download and install python. Then we will
+create our development environment to make working with code fun and easy. Let's
+get started!
 
 <!-- more -->
 
