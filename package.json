@@ -6,7 +6,7 @@
   "author": "Daniel Hampton",
   "private": true,
   "scripts": {
-    "serve": "vuepress dev",
+    "dev": "vuepress dev",
     "build": "vuepress build"
   },
   "devDependencies": {

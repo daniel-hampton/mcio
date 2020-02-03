@@ -1,24 +1,31 @@
 ---
 title: Getting Started with Python
 description: Learn how to install and set up your development environment for python!
+sidebar: auto
 tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
+published: "2020-02-02"
 image:
 meta:
 ---
 
+<ArticleTitle />
+<TagLinks />
+
 Let's learn how to download, install, and create your development environment in
 order to get started programming with python! Perhaps you've heard that coding
 is a superpower. Or you've read about this fancy *machine learning* stuff going
-around. Either way, you're probably asking yourself, "But where do I start?".
+around. Either way, you're probably asking yourself, "Where do I start?".
 Right here in this tutorial, with no previous programming knowledge required!
-Let's get started! Fearsome beans.
+Let's get started!
+
+<!-- more -->
 
 ## Download and Install Python
 
 There are two ways we're going to cover downloading Python. The first is to get
 it directly from [python.org](https://python.org). This is a more bare-bones
 setup if you want to start from a mostly blank slate. The second option is
-downloading the [Anaconda](https://anaconda.com) and the approach I recommend.
+downloading through [Anaconda](https://anaconda.com) and is the approach I recommend.
 This is a "batteries included" way of installing python. This distribution
 contains not only python but many useful libraries and pieces of software. Great
 for getting a jump-start and browsing what sort of tools are out there.
