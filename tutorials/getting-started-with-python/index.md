@@ -214,7 +214,8 @@ come back to it later for a refresher. Great for making plots and visualizing
 data.
 
 Jupyter is included with Anaconda, but you can easily install it with
-`pip install jupyter`. To start the notebook server run the following command from where your files are located:
+`pip install jupyter`. To start the notebook server run the following command
+from where your files are located:
 
 ```sh
 jupyter notebook
