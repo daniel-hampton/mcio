@@ -54,10 +54,11 @@ During installation, you will want to check the box that adds python to your
 system path. This will allow us to run commands from the
 terminal or command prompt like so:
 
-```sh
+```
 python --version
 Python 3.8.1
 ```
+![Python path](./python-path.png)
 
 ### Installing from Anaconda
 
@@ -89,10 +90,11 @@ are:
 During the installation process, you will want to check the box that adds
 anaconda/python to your system path. Allowing us to use python commands in the
 terminal or command prompt.
-```sh
+```
 python --version
 Python 3.7.4
 ```
+![Add anaconda path](./anaconda-path.png)
 
 ### Check Your Installation Works
 
@@ -102,7 +104,7 @@ in your terminal.
 
 Included with python is a package manager called `pip`. Let's also
 check that it is included.
-```sh
+```
 pip --version
 pip 19.2.3 from C:\Users\paperspace\Anaconda3\lib\site-packages\pip (python 3.7) 
 ```
@@ -111,7 +113,7 @@ If everything is working you can now use `pip` to install any library from the
 [python package index](https://pypi.org/)! A huge repository of software for
 python. For example, if you installed from python.org and want to use *jupyter
 notebooks* you can use this command:
-```sh
+```
 pip install jupyter
 ```
 
@@ -119,12 +121,12 @@ pip install jupyter
 
 `pip` comes with python. But if you installed with anaconda you will have another
 package manager called `conda`. You can check if it's installed by using:
-```sh
+```
 conda --version
 ```
 
 You could use `conda` to install packages like `jupyter`:
-```sh
+```
 conda install jupyter
 ```
 
@@ -147,7 +149,7 @@ with version 3.7 of python instead of the latest 3.8 version, at least at the
 time of this writing. If you want to create a virtual environment to run try out
 the latest version of python, no problem!
 
-```sh
+```
 conda create --name myEnv python=3.8
 ```
 
@@ -155,7 +157,7 @@ This will download and install a whole new installation of python 3.8 into the
 virtual environment which you named `myEnv`. And will only have a few basic
 libraries. First, you'll need to *activate* this environment. Do that by
 running:
-```sh
+```
 conda activate myEnv
 ```
 You've now gained access to the software in your virtual environment and,
@@ -217,7 +219,7 @@ Jupyter is included with Anaconda, but you can easily install it with
 `pip install jupyter`. To start the notebook server run the following command
 from where your files are located:
 
-```sh
+```
 jupyter notebook
 ```
 It should open up a browser window automatically. If not, check the terminal

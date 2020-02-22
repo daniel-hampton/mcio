@@ -2,7 +2,15 @@ module.exports = {
   title: 'Modern Coder',
   description: 'Learn. Grow. Thrive. Develop your coding superpowers step by step.',
   head: [
-    ['meta', {property: 'og:site_name', content: 'Modern Coder'}],
+    ['meta', { property: 'og:site_name', content: 'Modern Coder' }],
+    [
+      'script', 
+      { 
+        src: "https://kit.fontawesome.com/37553958c7.js",  
+        crossorigin:"anonymous",
+      },
+    ]
+
   ],
   markdown: {},
   themeConfig: {
@@ -41,5 +49,6 @@ module.exports = {
         // },
       },
     ],
+    ['@vuepress/back-to-top'],
   ],
 };

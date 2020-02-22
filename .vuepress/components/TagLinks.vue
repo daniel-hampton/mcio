@@ -1,5 +1,6 @@
 <template>
   <div>
+    <i class="fas fa-tags"></i>
     <span 
       v-for="(tag, index) in $page.frontmatter.tags"
       :key="tag"

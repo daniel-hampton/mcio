@@ -17,8 +17,8 @@
         </li>
       </ul>
     </span>
-    <h2>Pages</h2>
-    <pre class="language-javascript">{{ this.$site.pages | pretty}}</pre>
+    <!-- <h2>Pages</h2> -->
+    <!-- <pre class="language-javascript">{{ this.$site.pages | pretty}}</pre> -->
   </div>
 </template>
 
