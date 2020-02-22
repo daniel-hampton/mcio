@@ -6,6 +6,18 @@ tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
 published: "2020-02-02"
 image:
 meta:
+  - property: "og:title"
+    content: "Getting Started with Python"
+  - property: "og:description"
+    content: "Learn how to install and set up your development environment for python!"
+  - property: "og:image"
+    content: "https://moderncoder.io/getting-started-with-python.png"
+  - property: "og:url"
+    content: "https://moderncoder.io/tutorials/getting-started-with-python/"
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "og:type"
+    content: "website"
 ---
 
 <ArticleTitle />
