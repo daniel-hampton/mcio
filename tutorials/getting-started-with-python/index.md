@@ -196,6 +196,8 @@ include many useful features like code highlighting, hints, error messages, and
 quick access to documentation. Finding an editor you're happy with will save you
 a lot of time and can help you learn how to write better code.
 
+# TODO: Add mention of Anaconda Navigator 
+
 All of the editors listed here are available for free.
 
 ### Spyder (Recommended to Start)
@@ -206,6 +208,11 @@ very familiar. The default layout includes a file editor, a python terminal, and
 a very handy variable explorer. Perfect for learning! This is my recommended
 choice for those beginners who just want to get started. VS Code is another
 great choice.
+
+You can start Spyder from the command line:
+```
+spyder
+```
 
 Spyder's UI has 3 areas. The *editor* on the left, where you write longer
 scripts of code. The ipython *console*, in the bottom right, where you write
