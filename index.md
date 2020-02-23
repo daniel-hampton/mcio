@@ -1,11 +1,23 @@
 ---
 home: true
-heroImage: 
+heroImage: /getting-started-with-python.png
 heroText: Learn. Grow. Thrive.
-tagline: Stimulate Your Development
+tagline: "stimulate your development" # Stimulate Your Development
 actionText: Launch Knowledge 🚀
 actionLink: /tutorials/
 meta:
+  - property: "og:title"
+    content: "Modern Coder"
+  - property: "og:description"
+    content: "Learn. Grow. Thrive. Develop your coding superpowers step by step."
+  - property: "og:image"
+    content: "https://moderncoder.io/getting-started-with-python.png"
+  - property: "og:url"
+    content: "https://moderncoder.io/tutorials/getting-started-with-python/"
+  - property: "twitter:card"
+    content: "summary_large_image"
+  - property: "og:type"
+    content: "website"
 features:
 - title: Simplicity First
   details: Start with small, easy to understand concepts. Then build on them.

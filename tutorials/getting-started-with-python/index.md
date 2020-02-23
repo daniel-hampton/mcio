@@ -4,7 +4,7 @@ description: Learn how to install and set up your development environment for py
 sidebar: auto
 tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
 published: "2020-02-02"
-image:
+image: /getting-started-with-python.png
 meta:
   - property: "og:title"
     content: "Getting Started with Python"
