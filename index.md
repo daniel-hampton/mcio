@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /getting-started-with-python.png
+heroImage: /getting-started-with-python.jpg
 heroText: Learn. Grow. Thrive.
 tagline: "stimulate your development" # Stimulate Your Development
 actionText: Launch Knowledge 🚀
@@ -11,7 +11,7 @@ meta:
   - property: "og:description"
     content: "Learn. Grow. Thrive. Develop your coding superpowers step by step."
   - property: "og:image"
-    content: "https://moderncoder.io/getting-started-with-python.png"
+    content: "https://moderncoder.io/getting-started-with-python.jpg"
   - property: "og:url"
     content: "https://moderncoder.io/tutorials/getting-started-with-python/"
   - property: "twitter:card"

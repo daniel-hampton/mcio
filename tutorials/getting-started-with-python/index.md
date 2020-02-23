@@ -4,14 +4,14 @@ description: Learn how to install and set up your development environment for py
 sidebar: auto
 tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
 published: "2020-02-02"
-image: /getting-started-with-python.png
+image: /getting-started-with-python.jpg
 meta:
   - property: "og:title"
     content: "Getting Started with Python"
   - property: "og:description"
     content: "Learn how to install and set up your development environment for python!"
   - property: "og:image"
-    content: "https://moderncoder.io/getting-started-with-python.png"
+    content: "https://moderncoder.io/getting-started-with-python.jpg"
   - property: "og:url"
     content: "https://moderncoder.io/tutorials/getting-started-with-python/"
   - property: "twitter:card"
