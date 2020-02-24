@@ -23,11 +23,11 @@ module.exports = {
       // { text: 'Contact', link: '/contact'},
       // { text: 'About', link: '/about'},
     ],
-    sidebar: {
-      '/tutorials/': [
-        'getting-started-with-python',
-      ],
-    },
+    // sidebar: {
+    //   '/tutorials/': [
+    //     'getting-started-with-python/',
+    //   ],
+    // },
   },
   plugins: [
     [
