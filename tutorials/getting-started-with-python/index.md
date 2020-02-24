@@ -196,7 +196,11 @@ include many useful features like code highlighting, hints, error messages, and
 quick access to documentation. Finding an editor you're happy with will save you
 a lot of time and can help you learn how to write better code.
 
-# TODO: Add mention of Anaconda Navigator 
+You have the option of launching `spyder`, `jupyter notebook`, and `vs code`
+from the **Anaconda Navigator** GUI as an alternative to the command line. Check
+it out:
+
+![Anaconda Navigator](./anaconda-navigator.png)
 
 All of the editors listed here are available for free.
 

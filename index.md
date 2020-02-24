@@ -24,7 +24,7 @@ features:
 - title: Best Practices
   details: Learn the professional techniques that will save you time and money.
 - title: Enjoyment
-  details: Obstacles do not block the path. They are the path. Enjoy the journey.
+  details: Obstacles do not block the path. They are the path. Enjoy your journey.
 footer: Copyright © 2020-present Daniel Hampton
 ---
 
