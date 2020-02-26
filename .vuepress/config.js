@@ -17,6 +17,9 @@ module.exports = {
     smoothScroll: true,
     lastUpdated: 'Last Updated',
     logo: '/mcio-icon.svg',
+    repo: 'dhampton084/mcio',
+    editLinks: true,
+    editLinkText: 'Help improve this page!',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Tutorials', link: '/tutorials/' },
