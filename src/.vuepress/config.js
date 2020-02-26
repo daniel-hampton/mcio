@@ -2,8 +2,12 @@ module.exports = {
   title: 'Modern Coder',
   description: 'Learn. Grow. Thrive. Develop your coding superpowers step by step.',
   head: [
-    ['script', {src: "https://www.googletagmanager.com/gtag/js?id=UA-158903738-1"}],
-    ['script', {src: "ga-init.js"}],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-158903738-1' // UA-00000000-0
+      }
+    ],
     ['meta', { property: 'og:site_name', content: 'Modern Coder' }],
     [
       'script', 
@@ -20,6 +24,7 @@ module.exports = {
     lastUpdated: 'Last Updated',
     logo: '/mcio-icon.svg',
     repo: 'dhampton084/mcio',
+    docsDir: 'src',
     editLinks: true,
     editLinkText: 'Help improve this page!',
     nav: [
