@@ -47,7 +47,7 @@ editors such as *jupyter notebooks* and *spyder*.
 ### Installing from Python.org
 
 Head over to python.org and click on the **Downloads** section.
-![Python.org](./python-org-website.png)
+![Python.org](python-org-website.png)
 
 Here you'll be able to download the installer for your operating system.
 The latest version at the time of this writing is 3.8.
@@ -71,14 +71,14 @@ terminal or command prompt like so:
 python --version
 Python 3.8.1
 ```
-![Python path](./python-path.png)
+![Python path](python-path.png)
 
 ### Installing from Anaconda
 
 You can use [this link](https://www.anaconda.com/distribution/#download-section)
 to go directly to the download section for Anaconda.
 
-![Anaconda Download](./anaconda-download.png)
+![Anaconda Download](anaconda-download.png)
 
 This time installers are provided for Windows, macOS, and Linux. Again, you'll
 want to get the 3.X version. You may notice the python version here doesn't
@@ -107,7 +107,7 @@ terminal or command prompt.
 python --version
 Python 3.7.4
 ```
-![Add anaconda path](./anaconda-path.png)
+![Add anaconda path](anaconda-path.png)
 
 ### Check Your Installation Works
 
@@ -187,7 +187,7 @@ number. Good job! You're becoming a pro at this command-line stuff!
 `conda env list` will show you a list of all environments on your system and
 which is currently active. Super useful!
 
-![Listing environments](./conda-env-list.png)
+![Listing environments](conda-env-list.png)
 
 ## Set Up Your Code Editor
 
@@ -201,7 +201,7 @@ You have the option of launching `spyder`, `jupyter notebook`, and `vs code`
 from the **Anaconda Navigator** GUI as an alternative to the command line. Check
 it out:
 
-![Anaconda Navigator](./anaconda-navigator.png)
+![Anaconda Navigator](anaconda-navigator.png)
 
 All of the editors listed here are available for free.
 
@@ -223,13 +223,13 @@ Spyder's UI has 3 areas. The *editor* on the left, where you write longer
 scripts of code. The ipython *console*, in the bottom right, where you write
 code interactively, step by step and see the output. And the *help* window where
 you can see the documentation for python commands at a glance.
-![Spyder IDE](./spyder-full.png)
+![Spyder IDE](spyder-full.png)
 
 You can use the tabs below this help window to see the *very* useful *Variable
 explorer*. This lets you see what data and data types are stored as you enter
 variables into the console or run scripts. Fantastic for learning!
 
-![spyder variable explorer](./spyder-variables.png)
+![spyder variable explorer](spyder-variables.png)
 
 ### Jupyter Notebooks
 
@@ -249,7 +249,7 @@ jupyter notebook
 It should open up a browser window automatically. If not, check the terminal
 output for a link.
 
-![Jupyter Notebook](./notebook.png)
+![Jupyter Notebook](notebook.png)
 
 ### VS Code
 
@@ -265,7 +265,7 @@ You can [download VS Code here](https://code.visualstudio.com/download).
 You can access the terminal or command prompt from within VS Code. Type in
 `ipython` and you've got a file editor and python terminal in one.
 
-![VS Code](./vscode.png)
+![VS Code](vscode.png)
 
 ### PyCharm Community Edition
 
@@ -280,7 +280,7 @@ learning to code.
 
 You can [download PyCharm here](https://www.jetbrains.com/pycharm/download/).
 
-![pycharm](./pycharm.png)
+![pycharm](pycharm.png)
 
 ## What's Next
 
