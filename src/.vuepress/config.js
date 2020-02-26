@@ -2,6 +2,8 @@ module.exports = {
   title: 'Modern Coder',
   description: 'Learn. Grow. Thrive. Develop your coding superpowers step by step.',
   head: [
+    ['script', {src: "https://www.googletagmanager.com/gtag/js?id=UA-158903738-1"}],
+    ['script', {src: "ga-init.js"}],
     ['meta', { property: 'og:site_name', content: 'Modern Coder' }],
     [
       'script', 
