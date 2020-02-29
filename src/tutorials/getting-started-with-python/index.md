@@ -5,7 +5,7 @@ sidebar: auto
 tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
 published: "2020-02-24"
 prev: false
-next: "/tutorials/python-basics-types-and-variables/"
+next: "/tutorials/python-basics-numbers-and-functions/"
 image: /getting-started-with-python.jpg
 meta:
   - property: "og:title"
