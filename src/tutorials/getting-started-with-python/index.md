@@ -3,7 +3,9 @@ title: Getting Started with Python
 description: Learn how to install and set up your development environment for python!
 sidebar: auto
 tags: ["python", "beginner", "getting-started", "ide", "anaconda"]
-published: "2020-02-02"
+published: "2020-02-24"
+prev: false
+next: "/tutorials/python-basics-types-and-variables/"
 image: /getting-started-with-python.jpg
 meta:
   - property: "og:title"
