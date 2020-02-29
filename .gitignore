@@ -4,3 +4,5 @@ node_modules/
 .idea/
 .firebase/
 src/.vuepress/dist/
+
+**/.ipynb_checkpoints/

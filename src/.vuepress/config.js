@@ -3,11 +3,13 @@ module.exports = {
   description: 'Learn. Grow. Thrive. Develop your coding superpowers step by step.',
   head: [
     [
-      '@vuepress/google-analytics',
+      'script',
       {
-        'ga': 'UA-158903738-1' // UA-00000000-0
+        src: "https://www.googletagmanager.com/gtag/js?id=G-3J43DKSRRQ",
+        async: true,
       }
     ],
+    [ 'script', { src: 'ga-init.js' } ],
     ['meta', { property: 'og:site_name', content: 'Modern Coder' }],
     [
       'script', 
