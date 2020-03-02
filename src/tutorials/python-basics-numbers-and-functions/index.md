@@ -2,10 +2,10 @@
 title: Python Basics - Numbers and Functions
 description: Discover how to use numbers, variables, and functions step by step.
 sidebar: auto
-tags: ["python", "beginner", "jupyter-notebook, video"]
-published: #"2020-02-29"
+tags: ["python", "beginner", "jupyter-notebook", "video"]
+published: "2020-03-01"
 prev: "/tutorials/getting-started-with-python/"
-image: 
+image: "/python-basics-numbers-and-functions.jpg"
 meta:
   - property: "og:title"
     content: "Python Basics - Numbers and Functions"
@@ -31,13 +31,16 @@ how to use them effectively with the interactive interpreter and Jupyter
 Notebooks.
 
 <!-- more -->
+<YouTube videoUrl="https://youtu.be/6VB6vG-tRyQ" />
 
 This tutorial assumes you have at least Python 3.6 installed. You can watch this
 video on
 [Getting Started with Python](https://modercoder.io/getting-started-with-python)
 on how to get up and running.
 
-::: tip Note In the regular article of this tutorial, the code entered into the
+::: tip Note 
+
+In the regular article of this tutorial, the code entered into the
 interpreter is shown in code blocks marked with `py` in the upper right. The
 output is displayed in a code block immediately below, without the `py` marker.
 
