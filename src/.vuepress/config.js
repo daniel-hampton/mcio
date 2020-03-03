@@ -1,3 +1,17 @@
+// const purgecss = require('@fullhuman/postcss-purgecss')({
+
+//   // Specify the paths to all of the template files in your project 
+//   content: [
+//     './src/**/*.*',
+//     './src/.vuepress/**/*.*',
+//     './node_modules/@vuepress/theme-default/**/*.*',
+//     // etc.
+//   ],
+
+//   // Include any special characters you're using in this regular expression
+//   defaultExtractor: content => content.match(/[A-z0-9-:\/]+/g) || []
+// })
+
 module.exports = {
   title: 'Modern Coder',
   description: 'Learn. Grow. Thrive. Develop your coding superpowers step by step.',
@@ -41,6 +55,12 @@ module.exports = {
     //   ],
     // },
   },
+  postcss: {
+    plugins: [
+      require('tailwindcss'),
+      require('autoprefixer'),
+    ]
+  },
   plugins: [
     [
       'vuepress-plugin-mathjax',
@@ -61,6 +81,7 @@ module.exports = {
     [
       'vuepress-plugin-medium-zoom',
       {
+        selector: '.theme-default-content :not(a) > img:not([data-no-zoom])'
         // selector: '.my-wrapper .my-img',
         // delay: 1000,
         // options: {

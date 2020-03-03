@@ -6,11 +6,18 @@
   "author": "Daniel Hampton",
   "private": true,
   "scripts": {
-    "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "_purge_tailwindcss": "purgecss --config ./purgecss.config.js -o ./src/.vuepress/styles/",
+    "tailwindDev": "echo {\"buildMode\": false} > ./src/.vuepress/styles/stylusSettings.json" ,
+    "tailwindProd": "echo {\"buildMode\": true} > ./src/.vuepress/styles/stylusSettings.json" ,
+    "dev": "npm run tailwindDev && vuepress dev src",
+    "build": "npm run tailwindProd && npm run _purge_tailwindcss && vuepress build src"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.1.0",
     "@vuepress/plugin-back-to-top": "^1.3.1",
+    "autoprefixer": "^9.7.4",
+    "purgecss": "^2.1.0",
+    "tailwindcss": "^1.2.0",
     "vuepress": "^1.3.0",
     "vuepress-plugin-mathjax": "^1.2.8"
   },
