@@ -23,7 +23,7 @@ module.exports = {
         async: true,
       }
     ],
-    [ 'script', { src: 'ga-init.js' } ],
+    [ 'script', { src: '/ga-init.js' } ],
     ['meta', { property: 'og:site_name', content: 'Modern Coder' }],
     [
       'script', 
