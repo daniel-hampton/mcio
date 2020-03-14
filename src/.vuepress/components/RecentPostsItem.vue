@@ -2,16 +2,16 @@
   <router-link
     :key="post.id"
     :to="{path: post.path}">
-    <div class="row rounded bg-light-gray shadow-lg hover:shadow-none overflow-hidden">
-      <div class="col-12 col-sm-3 h-large">
-        <img data-no-zoom class="cover" v-if="post.frontmatter.image" :src="post.frontmatter.image" :alt="post.title">
+    <div class="row rounded bg-gray-100 shadow overflow-hidden">
+      <div class="col-sm-3">
+        <img data-no-zoom class="cover h-large w-full" v-if="post.frontmatter.image" :src="post.frontmatter.image" :alt="post.title">
       </div>
       <div class="col-auto col-sm-9 h-large text-overflow">
 
           <h3>{{post.title}}</h3>
         
         <h4>{{post.frontmatter.published}}</h4>
-        <div class="text-overflow" v-html="post.excerpt"></div>
+        <div class="text-overflow text-darkgray" v-html="post.excerpt"></div>
       </div>
     </div>
   </router-link>
@@ -30,10 +30,13 @@ export default {
 </script>
 
 <style scoped>
-  /* a:hover {
-    text-decoration: underline;
-  } */
+  .theme-default-content a:hover {
+    text-decoration: none;
+  }
 
+  img {
+    display: block;
+  }
   h4 {
     color: darkslategrey;
     margin-block-start: 0;
@@ -48,6 +51,9 @@ export default {
   .h-large {
     height: 12rem;
   }
+  .h-64 {
+    height: 64rem;
+  }
 
   .overflow-hidden {
     overflow: hidden;
@@ -61,8 +67,35 @@ export default {
     border-radius: 0.50rem;
   }
 
+  .text-darkgray {
+    color: darkslategray;
+  }
+
+  .bg-gray-100 {
+    background-color: #f7fafc;
+  }
   .bg-light-gray {
     background-color: #edf2f7;
+  }
+
+  .bg-mcio-blue {
+    background-color: #00b4d7;
+  }
+
+  .text-white {
+    color: whitesmoke;
+  }
+
+  .w-full {
+    width: 100%;
+  }
+
+  .p-0 {
+    padding: 0;
+  }
+  .px-0 {
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .shadow {
