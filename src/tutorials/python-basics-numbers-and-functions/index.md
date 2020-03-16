@@ -5,6 +5,7 @@ sidebar: auto
 tags: ["python", "beginner", "jupyter-notebook", "video"]
 published: "2020-03-01"
 prev: "/tutorials/getting-started-with-python/"
+next: "/tutorials/python-basics-strings/"
 image: "/python-basics-numbers-and-functions.jpg"
 meta:
   - property: "og:title"
