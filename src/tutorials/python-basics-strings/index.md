@@ -13,7 +13,7 @@ meta:
   - property: "og:description"
     content: "Learn how to manipulate text in Python. Use the power of words!"
   - property: "og:image"
-    content: "https://moderncoder.io/tutorials/python-basics-strings.jpg"
+    content: "https://moderncoder.io/python-basics-strings.jpg"
   - property: "og:url"
     content: "https://moderncoder.io/tutorials/python-basics-strings/"
   - property: "twitter:card"
