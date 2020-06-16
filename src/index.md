@@ -30,15 +30,4 @@ footer: Copyright © 2020-present Daniel Hampton
 
 ## Recent Posts
 <RecentPosts />
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+<NetlifyIdentity />
