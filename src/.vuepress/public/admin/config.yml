@@ -1,0 +1,28 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optiona; defaults to master)
+
+# This line would be uncommented to enable a draft, review, approve workflow.
+# publish_mode: editorial workflow
+
+media_folder: "src/.vuepress/public/images/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "/images/uploads"
+
+collections:
+  - name: "tutorials" # Used in routes, e.g., /admin/collections/tutorials
+    label: "Tutorials" # used in the UI
+    folder: "tutorials" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g.YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      # - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Sidebar", name: "sidebar", widget: "hidden", default: "auto"}
+      # - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "published", widget: "date", format: "YYYY-MM-DD"}
+      # - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Featured Image", name: "image", widget: "image"}
+      # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
+      - {label: "Body", name: "body", widget: "markdown"}
