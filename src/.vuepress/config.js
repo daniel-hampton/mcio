@@ -19,6 +19,12 @@ module.exports = {
     [
       'script',
       {
+        src: "https://identity.netlify.com/v1/netlify-identity-widget.js"
+      }
+    ],
+    [
+      'script',
+      {
         src: "https://www.googletagmanager.com/gtag/js?id=G-3J43DKSRRQ",
         async: true,
       }
